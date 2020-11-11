@@ -1,0 +1,12 @@
+name: deploy
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: macos-11.0
+    steps:
+      - uses: actions/checkout@v2
+      - run: cargo run -- build
+      - run: cat ./build/index.html
