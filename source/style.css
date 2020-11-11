@@ -1,0 +1,45 @@
+:root {
+    background-color: ivory;
+}
+
+.logobar {
+    height: 85px;
+}
+
+.logobar .container {
+    display: flex;
+}
+
+.logobar .logo {
+    padding: 5px 0 0;
+}
+
+.logobar .logo img {
+    max-height: 80px;
+}
+
+.content .ramens-container {
+    margin: -5px -25px 0 -25px;
+}
+
+.content .ramens {
+    padding: 0 15px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.content .ramens a {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+
+.content .ramens a:hover {
+    text-decoration: underline;
+}
+
+.content .ramen-thumbnail {
+    height: 200px;
+    border-radius: 15px;
+}
