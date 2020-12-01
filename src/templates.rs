@@ -18,9 +18,9 @@ pub fn ramen(ramen: Ramen, content: &str) -> String {
             r#"
         <h1>{}</h1>
         <img class="ramen-thumbnail" src="{}">
-        <div>{}</div>
+        <div style="margin-bottom:1.5rem"></div>
         {}"#,
-            ramen.name, ramen.image, ramen.location, content
+            ramen.name, ramen.image, content
         )),
     )
 }
